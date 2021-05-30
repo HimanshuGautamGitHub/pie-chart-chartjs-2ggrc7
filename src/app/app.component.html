@@ -1,0 +1,21 @@
+<div class="line-chart">
+  <canvas
+    class="test"
+    baseChart
+    chartType="line"
+    [data]="doughnutChartData"
+    [labels]="doughnutChartLabels"
+    [options]="chartOptions"
+    [legend]="true">
+    </canvas>
+</div>
+<div>
+  <canvas
+    baseChart
+    chartType="doughnut"
+    [data]="doughnutChartData"
+    [labels]="doughnutChartLabels"
+    [options]="chartOptions"
+    [legend]="true">
+    </canvas>
+</div>
